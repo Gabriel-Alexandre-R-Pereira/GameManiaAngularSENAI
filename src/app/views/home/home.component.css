@@ -1,17 +1,3 @@
-/* index.html and General Stylization */
-
-/* Body */
-
-body {
-    font-family: Merriweather Sans, sans-serif;
-    color: hsl(0, 0%, 90%);
-    background-image: linear-gradient(hsl(0, 0%, 10%), hsl(240, 100%, 35%), hsl(0, 0%, 10%));
-}
-
-
-
-
-
 /* Header */
 
 header {
