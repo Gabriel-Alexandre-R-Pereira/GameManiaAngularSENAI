@@ -1,43 +1,3 @@
-/* Header */
-
-header {
-    background-color: hsl(0, 0%, 10%);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
-header > figure, header > nav {
-    margin: 0;
-}
-
-header > nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header a {
-    text-decoration: none;
-    color: hsl(0, 0%, 90%);
-}
-
-header a:hover {
-    color: hsl(240, 100%, 35%);
-    transition: 0.25s;
-}
-
-header > nav > .faBars {
-    display: none;
-}
-
-
-
-
-
 /* Welcome Screen */
 
 .WelcomeScreen {
@@ -264,29 +224,6 @@ footer > figure {
 
     /* index.html */
 
-    /* Header */
-
-    header {
-        height: 12vh;
-    }
-    
-    header > nav {
-        height: inherit;
-        width: 20%;
-    }
-
-    header > figure > a > img {
-        width: 150%;
-    }
-
-    header a {
-        font-size: 2rem;
-    }
-
-
-
-
-
     /* Welcome Screen */
 
     .WelcomeScreen {
@@ -444,20 +381,6 @@ footer > figure {
 
     /* index.html */
     
-    /* Header */
-
-    header > figure > a > img {
-        width: 100%;
-    }
-
-    header a {
-        font-size: 1rem;
-    }
-
-
-
-
-
     /* Welcome Screen */
 
     .WelcomeScreen > article, .WelcomeScreen > nav {
@@ -602,38 +525,6 @@ footer > figure {
 @media screen and (max-width: 1025px) {
     
     /* index.html */
-
-    /* Header */
-
-    header > nav {
-        position: relative;
-        align-self: flex-start;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    header > nav > a {
-        display: none;
-    }
-
-    header > nav > .faBars {
-        display: inline-block;
-    }
-
-    header > .ResponsiveTopMenu {
-        background-color: hsl(0, 0%, 10%);
-        height: 34vh;
-    }
-
-    header > .ResponsiveTopMenu > a {
-        display: inline-block;
-    }
-
-
-
-
 
     /* Welcome Screen */
 
@@ -803,24 +694,6 @@ footer > figure {
     
     /* index.html */
 
-    /* Header */
-    
-    header > figure > a > img {
-        width: 80%;
-    }
-
-    header > .ResponsiveTopMenu {
-        height: 33.5vh;
-    }
-
-    header a {
-        font-size: 0.8rem;
-    }
-
-
-
-
-
     /* Welcome Screen */
 
     .WelcomeScreen {
@@ -929,20 +802,6 @@ footer > figure {
     
     /* index.html */
 
-    /* Header */
-    
-    header a {
-        font-size: 0.7rem;
-    }
-
-    header > .ResponsiveTopMenu {
-        height: 33vh;
-    }
-
-
-
-
-
     /* Welcome Screen */
 
     .WelcomeScreen > article {
@@ -1030,20 +889,6 @@ footer > figure {
 @media screen and (max-width: 320px) {
     
     /* index.html */
-
-    /* Header */
-    
-    header a {
-        font-size: 0.5rem;
-    }
-
-    header > .ResponsiveTopMenu {
-        height: 32vh;
-    }
-
-
-
-
 
     /* Welcome Screen */
 

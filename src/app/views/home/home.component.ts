@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faBars, faCaretLeft, faCaretRight } from '@fortawesome/free-solid-svg-icons';
+import { faCaretLeft, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +8,6 @@ import { faBars, faCaretLeft, faCaretRight } from '@fortawesome/free-solid-svg-i
 })
 export class HomeComponent implements OnInit {
 
-  faBars = faBars;
   faCaretLeft = faCaretLeft;
   faCaretRight = faCaretRight;
 
