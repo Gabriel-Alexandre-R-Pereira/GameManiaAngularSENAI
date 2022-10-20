@@ -30,7 +30,7 @@ header a:hover {
     transition: 0.25s;
 }
 
-header .icon {
+header > nav > .faBars {
     display: none;
 }
 
@@ -147,7 +147,7 @@ header .icon {
     transition: 0.25s;
 }
 
-.fa-caret-left, .fa-caret-right {
+.LeftArrow, .RightArrow {
     background-color: hsla(0, 0%, 90%, 50%);
     color: hsl(0, 0%, 10%);
     position: absolute;
@@ -156,11 +156,11 @@ header .icon {
     cursor: pointer;
 }
 
-.fa-caret-left {
+.LeftArrow {
     left: 20%;
 }
 
-.fa-caret-right {
+.RightArrow {
     right: 20%;
 }
 
@@ -361,9 +361,9 @@ footer > figure {
         border-radius: 10px;
     }
 
-    .fa-caret-left, .fa-caret-right {
+    .LeftArrow, .RightArrow {
         font-size: 5rem;
-        padding: 0.5% 1%;
+        padding: 0.5% 1.5%;
         border-radius: 10px;
     }
 
@@ -505,7 +505,7 @@ footer > figure {
         border-radius: 5px;
     }
 
-    .fa-caret-left, .fa-caret-right {
+    .LeftArrow, .RightArrow {
         font-size: 3rem;
         border-radius: 5px;
     }
@@ -618,7 +618,7 @@ footer > figure {
         display: none;
     }
 
-    header .icon {
+    header > nav > .faBars {
         display: inline-block;
     }
 
@@ -663,7 +663,7 @@ footer > figure {
         font-size: 1rem;
     }
 
-    .fa-caret-left, .fa-caret-right {
+    .LeftArrow, .RightArrow {
         font-size: 2.5rem;
     }
 
@@ -755,7 +755,7 @@ footer > figure {
         font-size: 1.5rem;
     }
 
-    .fa-caret-left, .fa-caret-right {
+    .LeftArrow, .RightArrow {
         font-size: 1.8rem;
         border-radius: 3px;
     }
@@ -871,9 +871,9 @@ footer > figure {
         font-size: 0.6rem;
     }
 
-    .fa-caret-left, .fa-caret-right {
+    .LeftArrow, .RightArrow {
         font-size: 1.5rem;
-        padding: 0.3% 1.2%;
+        padding: 0.3% 2%;
     }
 
 
@@ -980,7 +980,7 @@ footer > figure {
         border-radius: 2px;
     }
 
-    .fa-caret-left, .fa-caret-right {
+    .LeftArrow, .RightArrow {
         font-size: 1.3rem;
     }
 
@@ -1093,7 +1093,7 @@ footer > figure {
         font-size: 0.4rem;
     }
 
-    .fa-caret-left, .fa-caret-right {
+    .LeftArrow, .RightArrow {
         font-size: 1rem;
     }
 

@@ -4,7 +4,7 @@
     </figure>
 
     <nav id="TopMenu">
-        <a href="#" class="icon"><i class="fa-sharp fa-solid fa-bars fa-2x" onclick="MobileMenu ()"></i></a>
+        <a href="#" class="faBars"><fa-icon [icon]="faBars" size="2x" onclick="MobileMenu()"></fa-icon></a>
         <a href="#">Contato</a>
         <a href="#">Registre-se</a>
         <a href="./login.html">Log in</a>
@@ -67,8 +67,8 @@
                 </article>
             </figure>
 
-            <i class="fa-sharp fa-solid fa-caret-left fa-2x" id="LeftArrow"></i>
-            <i class="fa-sharp fa-solid fa-caret-right fa-2x" id="RightArrow"></i>
+            <fa-icon [icon]="faCaretLeft" class="LeftArrow" id="LeftArrow"></fa-icon>
+            <fa-icon [icon]="faCaretRight" class="RightArrow" id="RightArrow"></fa-icon>
         </nav>
     </section>
 
