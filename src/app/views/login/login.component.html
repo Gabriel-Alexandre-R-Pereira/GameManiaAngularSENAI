@@ -1,5 +1,5 @@
 <main>
-    <form action="" method="post">
+    <form action="" method="post" (ngSubmit)="ValidationLogin()">
         <h1 class="my-5 mx-auto text-center display-1">Conecte-se ao Game Mania</h1>
 
         <fieldset class="m-5">
@@ -7,12 +7,12 @@
 
             <section class="EmailContainer my-3 bg p-3">
                 <label for="email" class="form-label display-5 my-3">E-mail</label><br>
-                <input type="email" id="email" name="email" placeholder="nome@exemplo.com" required class="form-control form-control-lg my-3">
+                <input type="email" id="email" name="email" placeholder="nome@exemplo.com" required class="form-control form-control-lg my-3" [(ngModel)]="UserModel.email">
             </section>
 
             <section class="PasswordContainer my-3 p-3" id="PasswordContainer">
                 <label for="password" class="form-label display-5 my-3">Senha</label><br>
-                <input type="password" id="password" name="password" required class="form-control form-control-lg my-3">
+                <input type="password" id="password" name="password" required class="form-control form-control-lg my-3" [(ngModel)]="UserModel.password">
             </section>
 
             <section class="ButtonsContainer my-3 p-3 d-flex justify-content-between">
